@@ -1,0 +1,32 @@
+console.log('--------------------------------------');
+/*const foods=[]*/
+const foods = ['pizza', 'cheeseburger'];  
+console.log('Exercise 1 result:', foods);
+console.log('--------------------------------------');
+/*refer to e1*/
+console.log('Exercise 2 result:', foods);
+console.log('--------------------------------------');
+foods.unshift('taco');
+console.log('Exercise 3 result:', foods);
+console.log('--------------------------------------');
+const favFood= foods[1];
+console.log('Exercise 4 result:', favFood);
+console.log('--------------------------------------');
+foods.splice(2,0, "tofu");
+console.log('Exercise 5 result:', foods);
+console.log('--------------------------------------');
+foods.splice(1,1, "sushi", "cupcake");
+console.log('Exercise 6 result:', foods);
+console.log('--------------------------------------');
+const yummy= foods.slice(1, 3,);
+console.log('Exercise 7 result:', yummy);
+console.log('--------------------------------------');
+const soyIdx= foods.indexOf('tofu');
+console.log('Exercise 8 result:', soyIdx);
+console.log('--------------------------------------');
+const allFoods= foods.join(' -> ');
+console.log('Exercise 9 result:', allFoods);
+console.log('--------------------------------------');
+const hasSoup = foods.includes('soup');
+console.log('Exercise 10 result:', hasSoup);
+console.log('--------------------------------------');
